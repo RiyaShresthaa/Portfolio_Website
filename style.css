@@ -1,14 +1,22 @@
-*
-{
+*{
     margin:0;
     padding:0;
     box-sizing: border-box;
     font-family: 'poppins' , sans-serif;
 }
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
 body
 {
     color: #ededed;
+    background-color: #153735;
 
+}
+.flex{
+    display: flex;
+    justify-content: space-between ;
 }
 .header
 {
@@ -18,6 +26,7 @@ body
     width: 100%;
     padding:20px 10%;
     background: transparent;
+    background-color: #153735;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,17 +40,30 @@ body
     text-decoration: none;
     font-weight: 600;
 }
+.navbar {
+    padding: 0;
+    overflow: hidden;
+    background-color: #153735;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.navbar-nav {
+    width: 100%; 
+}
 .navbar a{
     display: inline-block;
     font-size: 25px;
-    color: #fff;
+    color: #153735;
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
     transition: .3s;
 }
 .navbar a:hover{
-    color: #0ef;
+    color: #76CCC1;
 
 }
 .home {
@@ -63,6 +85,10 @@ body
     font-size: 32px;
     font-weight: 700;
     margin: -3px 0;
+}
+
+.home-content h3 span{
+    color: #76CCC1;
 }
 .home-context h1{
     font-size: 56px;
@@ -105,3 +131,107 @@ body
     0 0 25px #76CCC1, 0 0 50px #76CCC1,
     0 0 100px #76CCC1, 0 0 200px #76CCC1
 }
+
+.container{
+    box-shadow: 10px 5px 5px red; 
+}
+.python-card{
+    width:30%;
+}
+.container-heading h2{
+    text-align: center;
+    color: #76CCC1;
+    margin-bottom: 5%;
+
+}
+
+.skill{
+    background-color: #153735;
+    margin-bottom: 10%;
+    padding-top: 10%;
+    padding-inline-start: 5%;
+    padding-inline-end: 5%;
+    padding-bottom: 10%;
+}
+.skill-card-header{
+    text-align: center;
+}
+.skill-card{
+    padding:5px 20px;
+
+}
+.skill-card-section{
+    border: 2px solid white;
+}
+.skill-card-section:hover{
+    box-shadow: 0 8px 15px 2px #76CCC1;
+
+}
+.container-form{
+    text-align: center;
+    color: #76CCC1;
+    margin-bottom: 5%;
+
+}
+.contact-form{
+    text-align: center;
+    padding: 10px;
+    border:1px solid white;
+    margin: 10% 10%;
+}
+.contact-form button{
+    width: 77px;
+    height:35px;
+}
+.contact-form button:hover{
+    color: #76CCC1;   
+}
+.contact-section{
+    margin-bottom:10%;
+    padding-top: 10%;
+    padding-inline-start: 5%;
+    padding-inline-end: 5%;
+    padding-bottom: 10%;
+}
+.contact-form h1{
+    color:#76CCC1;
+    margin-bottom: 20px;
+}
+.contact-form input{
+    margin: 10px;
+}
+.contact-form textarea{
+    padding-right:40px;
+}
+.project-container h1{
+    text-align: center;
+    color:#76CCC1;
+
+}
+.project-container{
+    margin-bottom:10%;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+}
+.project-card{
+    width:30%;
+    height:100px;
+    text-align: center;
+    border-spacing: 15px;
+    margin-top: 30px;
+    border: 2px solid rgb(104, 193, 205);
+}
+.project-card:hover{
+    box-shadow: 0 8px 15px 2px #76CCC1;
+}
+.project-card a{
+    color: rgb(158, 158, 103);
+}
+.project-card a:hover{
+    background-color: #76CCC1;
+
+}
+
+
